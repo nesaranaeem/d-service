@@ -11,6 +11,19 @@
     padding: 0;
     align-items: center;
   }
+  .section-title {
+    text-align: center;
+  }
+  .section-details {
+    text-align: center;
+  }
+  .features-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    padding: 15px;
+  }
 }
 
 /* medium device */
