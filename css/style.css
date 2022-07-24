@@ -1,0 +1,89 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#intro {
+background: linear-gradient(178.18deg, #FFFBF0 4.22%, #F7E6CC 98.53%);
+box-shadow: 0px 5px 26px #DD8762;
+clip-path: ellipse(100% 55% at 48% 44%);
+}
+
+.intro-container {
+    display: flex;
+    background-image: url(../images/intro_bg.png);
+    justify-content: space-around;
+}
+.left-side-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    width: 500px;
+}
+.intro-button-items {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.section-title {
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 53px;
+color: #455A64;
+margin: 0;
+}
+.section-details {
+font-style: normal;
+font-weight: 500;
+font-size: 16.6651px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #535359;
+
+}
+.learn-more-btn{
+text-decoration: none;
+color: #ffffff;
+background: #455A64;
+border-radius: 6px;
+padding: 15px 20px;
+width: 90px;
+}
+.learn-more-btn:hover{
+    background: orange;
+}
+.action-btn {
+text-decoration: none;
+font-style: normal;
+font-weight: 700;
+font-size: 14.1287px;
+line-height: 21px;
+color: #455A64;
+padding-left: 10px;
+}
+.action-btn:hover {
+    color: orange;
+}
+.trial-content {
+font-style: normal;
+font-weight: 700;
+font-size: 12.4623px;
+line-height: 23px;
+color: #455A64;
+}
+.h-line {
+    color: #FE9C69;
+}
+
+.right-side-content {
+    display: flex;
+    justify-content: space-between;
+}
+.right-side-content img {
+    width: 100%;
+    display: block;
+    padding-top: 80px;
+    padding-bottom: 66px;
+}
