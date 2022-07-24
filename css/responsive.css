@@ -1,18 +1,17 @@
 /* smaller device */
 @media screen and (max-width: 576px) {
-    .intro-container {
-        flex-direction: column;
-    }
-    .left-side-content {
-        display: flex;
-        justify-content: center;
-        /* padding-left: 100px; */
-        /* width: 500px; */
-        flex-direction: column;
-        padding: 0;
-    }
+  .intro-container {
+    flex-direction: column;
+  }
+  .left-side-content {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
 }
-
 
 /* medium device */
 @media screen and (min-width: 577px) and (max-width: 992px) {
